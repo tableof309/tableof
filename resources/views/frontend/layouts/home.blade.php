@@ -44,7 +44,7 @@
                     <h4>TableOf</h4>
                     <div class="footer-logo">
                         <a href="{{url(app()->getLocale())}}">
-                           <img src="{{asset('images/tableof-logo.jpg')}}">
+                           <img src="{{asset('images/tableof-logo.png')}}">
                         </a>
                     </div>
 
