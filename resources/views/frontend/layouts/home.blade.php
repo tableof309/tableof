@@ -11,11 +11,14 @@
     <link href="{{asset('css/customstyle.css')}}" rel="stylesheet">
     <link href="{{asset('css/tableof-responsive.css')}}" rel="stylesheet">
     
+    <title>@yield('meta_title')</title>
+    <meta name="keywords" content="@yield('meta_keyword')"/>
+    <meta name="keywords" content="@yield('meta_description')"/>
     
-    <title>@yield('title') | Best Multiplication Table Learing Portal here With Table-of</title>
-    <meta name="description" content="Come and learn your multiplication tables. Improve with the set of plan, the temprory test, multiplication games, printable worksheets with Interesting way">
 
-    <meta name="keywords"  content=" multiplication table, table of 1, table of 2, table game, multiplication table game, table of 3, table 4, table of 5, table of 6, table of 7, table of 8, table of 9, table of 10"/>
+    <meta name="description" content="@yield('meta_title')">
+    <meta name="description" content="@yield('meta_title')">
+    <meta name="description" content="@yield('meta_title')">
 
     <meta name="Language" content="English"/>
     <meta name="Publisher" content="TableOf"/>
@@ -30,7 +33,16 @@
      <!--googe add veryfi-->
      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8673849322443357"
      crossorigin="anonymous"></script>
-      <meta name="google-site-verification" content="rNAqfPHSyDPTK2X24hOPSkWtYD-1iHpkER6RbsJUA_A" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-232924169-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-232924169-1');
+    </script>
 </head>
 <body>
 
