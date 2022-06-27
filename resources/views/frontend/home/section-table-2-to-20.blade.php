@@ -11,7 +11,7 @@
 
             <ul class="tables-row">
                 @for ($j =1; $j <=5; $j++)
-                <li><a href="{{url(app()->getLocale())}}/multiplication-tables/table-of/{{$tableof}}"> Table of {{$tableof}}</a></li>
+                <li><a href="{{url('/')}}/multiplication-tables/table-of-{{$tableof}}"> Table of {{$tableof}}</a></li>
                 @php
                     $tableof+= 1;
                 @endphp
@@ -22,9 +22,9 @@
          
 
         <ul class="tables-row">
-        <li><a href="{{url(app()->getLocale())}}/multiplication-tables/table-of-2-to-10">Table of 2 to 10</a></li>
-        <li><a href="{{url(app()->getLocale())}}/multiplication-tables/table-of-2-to-20">Table of 2 to 20</a></li>
-        <li><a href="{{url(app()->getLocale())}}/multiplication-tables/table-of-11-to-20">Table of 11 to 20</a></li>
+        <li><a href="{{url('/')}}/multiplication-tables/tables-of-2-to-10">Table of 2 to 10</a></li>
+        <li><a href="{{url('/')}}/multiplication-tables/tables-of-2-to-20">Table of 2 to 20</a></li>
+        <li><a href="{{url('/')}}/multiplication-tables/tables-of-11-to-20">Table of 11 to 20</a></li>
         </ul>
     </div>
 </div>

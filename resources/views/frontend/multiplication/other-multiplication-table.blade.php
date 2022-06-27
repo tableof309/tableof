@@ -8,10 +8,10 @@
 <ul class="nav other-tables">
    @for ($i =1; $i <=20; $i++)
    @if($i!=$tableof)
-   <li><a href="{{url(app()->getLocale())}}/multiplication-tables/table-of/{{$i}}"> Table of {{$i}}</a></li>
+   <li><a href="{{url('/')}}/multiplication-tables/table-of-{{$i}}"> Table of {{$i}}</a></li>
    @endif
    @endfor
-   <li><a href="{{url(app()->getLocale())}}/multiplication-tables/table-of-1-to-10">Table of 1 to 10</a></li>
-   <li><a href="{{url(app()->getLocale())}}/multiplication-tables/table-of-2-to-20">Table of 2 to 20</a></li>
-   <li><a href="{{url(app()->getLocale())}}/multiplication-tables/table-of-11-to-20">Table of 11 to 20</a></li>
+   <li><a href="{{url('/')}}/multiplication-tables/tables-of-1-to-10">Table of 1 to 10</a></li>
+   <li><a href="{{url('/')}}/multiplication-tables/tables-of-2-to-20">Table of 2 to 20</a></li>
+   <li><a href="{{url('/')}}/multiplication-tables/tables-of-11-to-20">Table of 11 to 20</a></li>
 </ul>

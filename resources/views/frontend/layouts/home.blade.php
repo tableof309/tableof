@@ -54,8 +54,8 @@
                 <div class="col-sm-6 col-md-4">
                     <h4>TableOf</h4>
                     <div class="footer-logo">
-                        <a href="{{url(app()->getLocale())}}">
-                           <img src="{{asset('images/tableof-logo.png')}}">
+                        <a href="{{url('/')}}">
+                           <img style="width: 100px;" src="{{asset('images/tableof-logo.png')}}">
                         </a>
                     </div>
 
@@ -90,7 +90,7 @@
                     <h4>PARTNERS</h4>
                     <ul class="footer-links">
                         <li>
-                            <a href="{{url(app()->getLocale())}}" target="_blank">www.table-of.com</a>
+                            <a href="{{url('/')}}" target="_blank">www.table-of.com</a>
                         </li>
                         
                     </ul>
@@ -101,7 +101,7 @@
 
         <div class="row">
             <div class="col-md-12 copyright ">
-                All rights reserved @ 2021 <a href="{{url(app()->getLocale())}}">www.table-of.com</a>
+                All rights reserved @ 2021 <a href="{{url('/')}}">www.table-of.com</a>
             </div>
         </div>
     </div>

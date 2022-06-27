@@ -12,17 +12,20 @@ class HomeController extends BaseController
      {
          return view('frontend.home.index');
      }
-     public function multiplication_table($tableof,$id)
+     public function multiplication_table($id)
      {
             $methodtoread = getMethodToRead();
             //dd($methodtoread);
             $tableof = $id;
          return view('frontend.multiplication.index',compact('tableof'));
      }
-     public function multiplicationTwoToTwenty()
+     public function multiplicationTwoToTwenty($id,$ids)
      {
+
+
+         
             /*$methodtoread   = getMethodToRead();*/
-            $tableof        = 2;
-         return view('frontend.multiplication.table-2-to-20',compact('tableof'));
+            $tableof        = $id;
+         return view('frontend.multiplication.table-two-to-twenty',compact('tableof'));
      }
 }

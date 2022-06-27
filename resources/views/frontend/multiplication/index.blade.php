@@ -107,18 +107,18 @@
                            @for ($i =1; $i <=20; $i++)
                            @if($i != $tableof)
                            <div class="col-sm-4">
-                              <a class="btn btn-link" href="{{url(app()->getLocale())}}/multiplication-tables/table-of/{{$i}}"> Table of {{$i}}</a>
+                              <a class="btn btn-link" href="{{url('/')}}/multiplication-tables/table-of-{{$i}}"> Table of {{$i}}</a>
                            </div>
                            @endif
                            @endfor
                            <div class="col-sm-4">
-                              <a class="btn btn-link" href="{{url(app()->getLocale())}}/multiplication-tables/table-of-2-to-10">Table of 2 to 10</a>
+                              <a class="btn btn-link" href="{{url('/')}}/multiplication-tables/tables-of-2-to-10">Table of 2 to 10</a>
                            </div>
                            <div class="col-sm-4">
-                              <a class="btn btn-link" href="{{url(app()->getLocale())}}/multiplication-tables/table-of-2-to-20">Table of 2 to 20</a>
+                              <a class="btn btn-link" href="{{url('/')}}/multiplication-tables/tables-of-2-to-20">Table of 2 to 20</a>
                            </div>
                            <div class="col-sm-4">
-                              <a class="btn btn-link" href="{{url(app()->getLocale())}}/multiplication-tables/table-of-1-to-20">Table of 1 to 20</a>
+                              <a class="btn btn-link" href="{{url('/')}}/multiplication-tables/tables-of-1-to-20">Table of 1 to 20</a>
                            </div>
                         </div>
                      </div>
@@ -160,7 +160,7 @@
                      You got <span class="tottle-num"> 0</span>/<span class="tottle-que">10</span> Questions.
                   </div>
                   <div class="row form-btn-wrap">
-                     <a class="check-ans-reset" href="{{url(app()->getLocale())}}">More Quiz</a>
+                     <a class="check-ans-reset" href="{{url('/')}}">More Quiz</a>
                      <button class="check-ans-reset"> Reset</button>
                      <button class="check-ans"> Submit Answer</button>
                   </div>
