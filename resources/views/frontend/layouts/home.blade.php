@@ -14,11 +14,6 @@
     <title>@yield('meta_title')</title>
     <meta name="keywords" content="@yield('meta_keyword')"/>
     <meta name="keywords" content="@yield('meta_description')"/>
-    
-
-    <meta name="description" content="@yield('meta_title')">
-    <meta name="description" content="@yield('meta_title')">
-    <meta name="description" content="@yield('meta_title')">
 
     <meta name="Language" content="English"/>
     <meta name="Publisher" content="TableOf"/>
