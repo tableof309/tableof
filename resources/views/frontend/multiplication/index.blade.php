@@ -187,7 +187,7 @@
 </div>
 @endsection
 @section('pagespecificscripts')
-<script>
+<script  defer>
    $(document).ready(function(){
           $(".getNumb").keyup(function(event) {
               if (event.keyCode === 13) {

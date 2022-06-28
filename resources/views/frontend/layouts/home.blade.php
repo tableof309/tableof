@@ -107,10 +107,10 @@
     </div>
 </footer>
 
-<script src="{{asset('js/jquery.min.js')}}"> </script>
-<script src="{{asset('js/bootstrap.min.js')}}"></script>
+<script src="{{asset('js/jquery.min.js')}}" defer> </script>
+<script src="{{asset('js/bootstrap.min.js')}}"  defer></script>
 
-    <script>
+    <script defer>
         $(document).ready(function(){
 
             $('#getvalue').on('input', function() {
