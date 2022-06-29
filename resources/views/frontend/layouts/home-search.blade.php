@@ -1,7 +1,7 @@
 <div class="row">
 	<div class="col-md-12 text-center">
 	    <h1> Online Multiplication Table <span style="color: #f5b803;">Think A Number</span> </h1>
-	    <p>with Exmaples, Download tables graph, How to peruse and compose tables, test (test) and numerous more...Know what you actually want.</p>
+	    <p>with Exmaples, Download tables graph, play math quiz and compose tables, test (test) and numerous more...</p>
 
 	    <div class="search-bar">
 	        <img src="{{asset('images/delete-txt.png')}}" class="remove-text" alt="table of search box"/>

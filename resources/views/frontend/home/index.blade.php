@@ -1,22 +1,38 @@
 @extends('frontend.layouts.home')
-@section('meta_title','Best Multiplication Table Learing Portal here With Table-of')
+@section('meta_title','Best online Multiplication Table Learning Portal here With Table-of')
 @section('meta_keyword','multiplication table, table of 1, table of 2, table game, multiplication table game, table of 3, table 4, table of 5, table of 6, table of 7, table of 8, table of 9, table of 10')
 @section('meta_description','Come and learn your multiplication tables. Improve with the set of plan, the temprory test, multiplication games, printable worksheets with Interesting way')
 @section('content')
+<section class="container-fluid Multiplication-section">
+        <div class="container">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2> Multiplication Tables</h2>
+                    </div>
+                    <div class="col-md-6">
+                        <P>
+                        A multiplication table is a list of multiplications of numbers. By multiplying the given integer number by whole numbers, we may get the multiplication table. Table-of is a calculator that needs you learn how to multiply two integer numbers. Multiplication is one of the fundamental mathematical processes that students are taught from a nursary age. A multiplication table is a basic way of teaching kids the concept of multiplication.  When performing simple arithmetic multiplication, calculations, times tables can be incredibly useful.
+                        </P>
+                    </div>
+                    <div class="col-md-6">
+                        <p>
+                        Multiplication table helps as beginninga for advance arithmetic problems such as fractions, exponents and more. table-of multiplication table are help you in multiy numbers tables quickly. A multiplication chart is a table that displays the result of multiplying two integers together. One set of numbers is usually put in the left column, while the other is written in the top row. When calculating math, having a multiplication chart saves a lot of time and effort.
+                        </P>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
 <div class="container home-table-section">
         @include('frontend.home.section-table-2-to-20')
 
-      
-
-
-
         <div class="col-md-12 table-one-ten">
             <div class="row">
-
-                
-
                 <div class="table-container">
-
                     <div class="table-responsive">
                         <table class="table table-bordered shadow ">
                             <tr>
@@ -196,65 +212,17 @@
             </div>
         </div>
 
-        <!-- <div class="col-md-12 table-container">
-            <div class="row">
-
-
-            </div>
-        </div> -->
-
+         
 
 
     </div>
 
-    <section class="container-fluid Multiplication-section">
-        <div class="container">
-            <div class="col-md-12">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2> Multiplication Tables</h2>
-                    </div>
-                    <div class="col-md-6">
-                        <P>
-                        A multiplication table is a list of a number's multiples. By multiplying the provided integer by whole numbers, we may get the multiplication table. It's a calculator that helps you learn how to multiply two numbers. A times table allows us to rapidly and simply calculate answers. Multiplication is one of the fundamental mathematical processes that students are taught from a young age. A multiplication table chart is a basic way of teaching kids the concept of multiplication.  When performing simple arithmetic calculations, times tables can be incredibly useful.
-                        </P>
-                    </div>
-                    <div class="col-md-6">
-                        <p>
-                        These serve as foundations for higher arithmetic concepts such as fractions, exponents, and many more. Printable multiplication charts and tables are available to assist you in learning times tables quickly. A multiplication chart is a table that displays the result of multiplying two integers together. One set of numbers is usually put in the left column, while the other is written in the top row. When calculating math, having a multiplication chart saves a lot of time and effort.
-                        </P>
-                    </div>
-
-                </div>
-                  <div class="col-md-12 ">
-            <div class="row">
-                <div class="col-md-12 col-lg-6 about-box">
-                    <h3>About TableOf</h3>
-                    <p>
-                    Duplication Tables, or basically Tables, are a plain portrayal of the increase of numbers. Arithmetic is based on the underpinning of tables...
-                    </p>
-                    <a href="{{url('/')}}/about-us">Read More</a>
-                </div>
-                <div class="col-md-12 col-lg-6 our-mission-box">
-                    <h3>Our Mission</h3>
-                   
-                       <ol>
-                           <li>
-                           Giving top notch mathematics training and ingraining an examination mentality through imaginative learning and exploration techniques.
-                           </li>
-
-                       </ol>
-                    
-                    <a href="{{url('/')}}/our-mission">Read More</a>
-                </div>
-            </div>
-        </div>
-            </div>
-        </div>
-    </section>
+    
 
     <section class="container-fluid our-aim-wrap">
         <div class="container">
+
+
             <div class="col-md-12">
                 <div class="row">
                     <div class="col-md-12 col-lg-6 d-none d-lg-block">
@@ -293,6 +261,36 @@
 
 
 
+        </div>
+    </section>
+    <section>
+        <div class="container">
+        
+        <div class="row">
+              <div class="col-md-12 ">
+            <div class="row">
+                <div class="col-md-12 col-lg-6 about-box">
+                    <h3>About TableOf</h3>
+                    <p>
+                    Duplication Tables, or basically Tables, are a plain portrayal of the increase of numbers. Arithmetic is based on the underpinning of tables...
+                    </p>
+                    <a href="{{url('/')}}/about-us">Read More</a>
+                </div>
+                <div class="col-md-12 col-lg-6 our-mission-box">
+                    <h3>Our Mission</h3>
+                   
+                       <ol>
+                           <li>
+                           Giving top notch mathematics training and ingraining an examination mentality through imaginative learning and exploration techniques.
+                           </li>
+
+                       </ol>
+                    
+                    <a href="{{url('/')}}/our-mission">Read More</a>
+                </div>
+            </div>
+        </div>
+        </div>
         </div>
     </section>
 

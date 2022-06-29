@@ -1,5 +1,12 @@
 @extends('frontend.layouts.home')
-@section('title','Home')
+@section('meta_title')
+Table of {{$tableof }} | Learn Multiplication Table of {{$tableof }}  Maths | {{$tableof }} Times Table
+@endsection('meta_title')
+@section('meta_keyword')
+table of {{$tableof }}, {{$tableof }} times table, {{$tableof }} multiplication table, {{$tableof }} table, {{$tableof }}th table maths, {{$tableof }}th table @endsection('meta_keyword')
+@section('meta_description')
+Come and learn your multiplication table of {{$tableof }} . Learn Table of  {{$tableof }} and memorize on your fingertips. Understand the tricks to learn  {{$tableof }} table in an easy way at  table-of.com
+@endsection('meta_description')
 @section('content')
 <div class="container inner-page-wrap">
 <div class="row">
@@ -46,10 +53,10 @@
             <h2>Multiplication Table of {{$tableof}} chart</h2>
             <p>Students would find this {{$tableof}} table chart interesting to read and learn. Student can download complete free online Table of {{$tableof}} chart.</p>
             <p></p>
-            <a href="{{asset('storage/jn4riL9N3ayIdWNCZke7o1MOn57isSKRjJUYM4g8.jpg')}}">
+            <!-- <a href="{{asset('storage/jn4riL9N3ayIdWNCZke7o1MOn57isSKRjJUYM4g8.jpg')}}">
                <img src="{{asset('storage/jn4riL9N3ayIdWNCZke7o1MOn57isSKRjJUYM4g8.jpg')}}" class="img-fluid img-thumbnail">
                <figcaption class="attachment__caption attachment__caption--edited">Free download Table of {{$tableof}} Chart</figcaption>
-            </a>
+            </a> -->
             <p></p>
             <h2>How to read &amp; write {{$tableof}} Times Table</h2>
             <div class="table-responsive">
