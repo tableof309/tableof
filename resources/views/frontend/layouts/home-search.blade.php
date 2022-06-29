@@ -1,7 +1,7 @@
 <div class="row">
-	<div class="col-md-12">
-	    <h2> Get Free <span>450+</span> Online Tables</h2>
-	    <p>with Exmaples, Download tables chart, How to read & write tables, test (quiz) & many more...Know what's right for you.</p>
+	<div class="col-md-12 text-center">
+	    <h1> Online Multiplication Table <span style="color: #f5b803;">Think A Number</span> </h1>
+	    <p>with Exmaples, Download tables graph, How to peruse and compose tables, test (test) and numerous more...Know what you actually want.</p>
 
 	    <div class="search-bar">
 	        <img src="{{asset('images/delete-txt.png')}}" class="remove-text">
@@ -9,7 +9,7 @@
 
 	        <button type="submit" id="get_table"> Search Table </button>
 	        <div class="show-table">
-	            <table class="table-data table-bordered">
+	            <table class="table-data table-bordered table-responsive">
 	                <thead>
 	                <tr>
 	                    <th colspan="3"> <span> </span> Table </th>

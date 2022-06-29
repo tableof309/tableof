@@ -2,7 +2,7 @@ body{ }
 
 button:focus:not(:focus-visible), input:focus { outline: 0; box-shadow: none;}
 .header-top {padding-top:25px;  background:#f0f4fa;  border-bottom: solid 1px #d4d8df;
-     padding-bottom: 50px; background:#f0f4fa url(../images/search-bg.jpg); 
+     padding-bottom: 50px; background:#f0f4fa url(../images/search-bg.webp); 
      background-repeat: no-repeat;
      background-position: center;
      background-position-y: bottom;
@@ -158,13 +158,13 @@ button:focus:not(:focus-visible), input:focus { outline: 0; box-shadow: none;}
 
 .about-box, .our-mission-box {height: 288px; padding:20px 220px 35px 30px; color:#fff; }
 .about-box {height: 288px;
-    background:#ef9a88 url(../images/about-box.jpg); 
+    background:#218128 url(../images/about-box.webp); 
     background-repeat: no-repeat;
     background-position-x: 370px;
     background-position-y: center;
 
 }
-.our-mission-box { height: 288px; background:#fdd172 url(../images/mission.jpg); 
+.our-mission-box { height: 288px; background:#e6b440 url(../images/mission.webp); 
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: bottom;
@@ -186,7 +186,7 @@ button:focus:not(:focus-visible), input:focus { outline: 0; box-shadow: none;}
 }
 
 .about-box a:hover, .our-mission-box a:hover, footer ul.footer-links li a:hover  {color: #f5b803;}
-.table-one-ten {margin: 40px 0px 0; background: url(../images/table-bg.jpg); background-repeat: no-repeat; height: auto;}
+.table-one-ten {margin: 40px 0px 0; background: url(../images/table-bg.webp); background-repeat: no-repeat; height: auto;}
 .col-md-12.table-one-ten > .row {display: inline-block; width: 100%;}
 .table-one-ten h2 {
     color: #f5b803;
@@ -217,22 +217,26 @@ button:focus:not(:focus-visible), input:focus { outline: 0; box-shadow: none;}
 .table-container table td, .table-container table th { padding:7px; width: 20%;}
 .table-container table th {color:#fff;}
 .table-container table td span { font-size: 17px;}
-.table-container table td:nth-child(1){background-color: #ffd3ee; border-bottom: solid 1px #ce2c90;}
-.table-container table th:nth-child(1){background-color: #ce2c90; border-bottom: solid 1px #ce2c90;}
+.table-container table td:nth-child(1){background-color: #58D65F; border-bottom: solid 1px #ce2c90;}
+.table-container table th:nth-child(1){background-color: #218128; border-bottom: solid 1px #218128;}
 
 
-.table-container table td:nth-child(2){background-color: #d0ffd0; border-bottom: solid 1px #1bc41b;}
-.table-container table th:nth-child(2){background-color: #1bc41b; border-bottom: solid 1px #1bc41b;}
+.table-container table td:nth-child(2){background-color: #F2C1B9; border-bottom: solid 1px #F09A89;}
+.table-container table th:nth-child(2){background-color: #F09A89; border-bottom: solid 1px #F09A89;}
+
+.table-container table td:nth-child(3){background-color: #58D65F; border-bottom: solid 1px #ce2c90;}
+.table-container table th:nth-child(3){background-color: #218128; border-bottom: solid 1px #218128;}
+
+.table-container table td:nth-child(4){background-color: #F2C1B9; border-bottom: solid 1px #F09A89;}
+.table-container table th:nth-child(4){background-color: #F09A89; border-bottom: solid 1px #F09A89;}
+
+.table-container table td:nth-child(5){background-color: #58D65F; border-bottom: solid 1px #ce2c90;}
+.table-container table th:nth-child(5){background-color: #218128; border-bottom: solid 1px #218128;}
+
+.table-container table td:nth-child(6){background-color: #F2C1B9; border-bottom: solid 1px #F09A89;}
+.table-container table th:nth-child(6){background-color: #F09A89; border-bottom: solid 1px #F09A89;}
 
 
-.table-container table td:nth-child(3){background-color: #dcd4ff; border-bottom: solid 1px #3f1fcc;}
-.table-container table th:nth-child(3){background-color: #3f1fcc; border-bottom: solid 1px #3f1fcc;}
-
-.table-container table td:nth-child(4){background-color: #d7feff; border-bottom: solid 1px #1bb1b6;}
-.table-container table th:nth-child(4){background-color: #1bb1b6; border-bottom: solid 1px #1bb1b6;}
-
-.table-container table td:nth-child(5){background-color: #ffebc0; border-bottom: solid 1px #c78e12;}
-.table-container table th:nth-child(5){background-color: #c78e12; border-bottom: solid 1px #c78e12;}
 
 
 
@@ -276,7 +280,6 @@ footer ul.footer-links li :before {
 footer .footer-logo {
     margin-top: 3px; margin-bottom:30px;
     padding: 4px;
-    background: #f0f3fa;
     width: auto;
     display: inline-block;
     border-radius: 3px;

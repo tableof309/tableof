@@ -26,18 +26,18 @@
     <META name="expires" content="never">
      <!--Meta Data Structure-->
      <!--googe add veryfi-->
-     <script defer async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8673849322443357"
-     crossorigin="anonymous"></script>
+     <!-- <script defer async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8673849322443357"
+     crossorigin="anonymous"></script> -->
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script  defer async src="https://www.googletagmanager.com/gtag/js?id=UA-232924169-1"></script>
+    <!-- <script  defer async src="https://www.googletagmanager.com/gtag/js?id=UA-232924169-1"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
     gtag('config', 'UA-232924169-1');
-    </script>
+    </script> -->
 </head>
 <body>
 
@@ -90,7 +90,7 @@
                     <h4>PARTNERS</h4>
                     <ul class="footer-links">
                         <li>
-                            <a href="{{url('/')}}" target="_blank">www.table-of.com</a>
+                            <a href="{{url('/')}}" target="_blank">https://table-of.com</a>
                         </li>
                         
                     </ul>
@@ -101,16 +101,16 @@
 
         <div class="row">
             <div class="col-md-12 copyright ">
-                All rights reserved @ 2021 <a href="{{url('/')}}">www.table-of.com</a>
+                All rights reserved @ 2021 <a href="{{url('/')}}">https://table-of.com</a>
             </div>
         </div>
     </div>
 </footer>
 
-<script src="{{asset('js/jquery.min.js')}}" defer> </script>
-<script src="{{asset('js/bootstrap.min.js')}}"  defer></script>
+<script src="{{asset('js/jquery.min.js')}}"  > </script>
+<script src="{{asset('js/bootstrap.min.js')}}"   ></script>
 
-    <script defer>
+    <script  >
         $(document).ready(function(){
 
             $('#getvalue').on('input', function() {
@@ -146,10 +146,7 @@
                     return false
 
                 }
-                else if(getvalue>500){
-                    alert("Number should be less than 500");
-                    return false
-                }
+                
 
                 $('.show-table').css('display','block');
                 $('.table-data tbody').html(' ');

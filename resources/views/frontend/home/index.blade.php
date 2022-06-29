@@ -11,7 +11,7 @@
                 <div class="col-md-12 col-lg-6 about-box">
                     <h3>About TableOf</h3>
                     <p>
-                    Multiplication Tables, or simply Tables, are a tabular representation of the multiplication of numbers. Mathematics is built on the foundation of tables...
+                    Duplication Tables, or basically Tables, are a plain portrayal of the increase of numbers. Arithmetic is based on the underpinning of tables...
                     </p>
                     <a href="#">Read More</a>
                 </div>
@@ -20,7 +20,7 @@
                    
                        <ol>
                            <li>
-                           Providing high-quality mathematics education and instilling a research mindset through innovative learning and research methods.
+                           Giving top notch mathematics training and ingraining an examination mentality through imaginative learning and exploration techniques.
                            </li>
 
                        </ol>
@@ -35,13 +35,18 @@
         <div class="col-md-12 table-one-ten">
             <div class="row">
 
-                <h2>Tables 1 to 10</h2>
+                
 
                 <div class="table-container">
 
                     <div class="table-responsive">
                         <table class="table table-bordered shadow ">
+                            <tr>
+                                <th colspan="100" class="text-center">Tables 1 to 10</th>
+                                
+                            </tr>
                             <tbody>
+                            
                             <tr>
                                 <th>Table of 1</th>
                                 <th>Table of 2</th>
@@ -252,7 +257,7 @@
             <div class="col-md-12">
                 <div class="row">
                     <div class="col-md-12 col-lg-6 d-none d-lg-block">
-                        <img src="{{asset('images/we-aim-girl.png')}}" class="img-fluid">
+                        <img src="{{asset('images/we-aim-girl.webp')}}" class="img-fluid">
                     </div>
                     <div class="col-md-12 col-lg-6">
                         <div class="educate-wrap">
