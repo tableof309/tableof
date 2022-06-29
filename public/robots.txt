@@ -1,2 +1,12 @@
 User-agent: *
-Disallow:
+allow: /
+
+Disallow: https://table-of.com/terms-and-contitions
+
+Disallow: https://table-of.com/contact-us
+
+Disallow: https://table-of.com/about-us
+
+Disallow: https://table-of.com/privacy-policy
+
+Sitemap: https://table-of.com/sitemap.xml

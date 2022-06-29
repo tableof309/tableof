@@ -4,7 +4,7 @@
 	    <p>with Exmaples, Download tables graph, How to peruse and compose tables, test (test) and numerous more...Know what you actually want.</p>
 
 	    <div class="search-bar">
-	        <img src="{{asset('images/delete-txt.png')}}" class="remove-text">
+	        <img src="{{asset('images/delete-txt.png')}}" class="remove-text" alt="table of search box"/>
 	        <input type="number" name="keyword" placeholder="Table of.." id="getvalue" autocomplete="off">
 
 	        <button type="submit" id="get_table"> Search Table </button>

@@ -6,29 +6,7 @@
 <div class="container home-table-section">
         @include('frontend.home.section-table-2-to-20')
 
-        <div class="col-md-12 ">
-            <div class="row">
-                <div class="col-md-12 col-lg-6 about-box">
-                    <h3>About TableOf</h3>
-                    <p>
-                    Duplication Tables, or basically Tables, are a plain portrayal of the increase of numbers. Arithmetic is based on the underpinning of tables...
-                    </p>
-                    <a href="#">Read More</a>
-                </div>
-                <div class="col-md-12 col-lg-6 our-mission-box">
-                    <h3>Our Mission</h3>
-                   
-                       <ol>
-                           <li>
-                           Giving top notch mathematics training and ingraining an examination mentality through imaginative learning and exploration techniques.
-                           </li>
-
-                       </ol>
-                    
-                    <a href="#">Read More</a>
-                </div>
-            </div>
-        </div>
+      
 
 
 
@@ -248,6 +226,29 @@
                     </div>
 
                 </div>
+                  <div class="col-md-12 ">
+            <div class="row">
+                <div class="col-md-12 col-lg-6 about-box">
+                    <h3>About TableOf</h3>
+                    <p>
+                    Duplication Tables, or basically Tables, are a plain portrayal of the increase of numbers. Arithmetic is based on the underpinning of tables...
+                    </p>
+                    <a href="{{url('/')}}/about-us">Read More</a>
+                </div>
+                <div class="col-md-12 col-lg-6 our-mission-box">
+                    <h3>Our Mission</h3>
+                   
+                       <ol>
+                           <li>
+                           Giving top notch mathematics training and ingraining an examination mentality through imaginative learning and exploration techniques.
+                           </li>
+
+                       </ol>
+                    
+                    <a href="{{url('/')}}/our-mission">Read More</a>
+                </div>
+            </div>
+        </div>
             </div>
         </div>
     </section>
@@ -257,7 +258,7 @@
             <div class="col-md-12">
                 <div class="row">
                     <div class="col-md-12 col-lg-6 d-none d-lg-block">
-                        <img src="{{asset('images/we-aim-girl.webp')}}" class="img-fluid">
+                        <img src="{{asset('images/we-aim-girl.webp')}}" class="img-fluid"  alt="We Aim to Educate" />
                     </div>
                     <div class="col-md-12 col-lg-6">
                         <div class="educate-wrap">
@@ -287,6 +288,7 @@
                     </div>
                 </div>
             </div>
+
 
 
 

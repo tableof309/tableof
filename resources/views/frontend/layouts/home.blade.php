@@ -6,9 +6,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
+    <link href="{{asset('images/favicon.ico')}}" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
     <link href="{{asset('css/bootstrap.css')}}" rel="stylesheet">
     <link href="{{asset('css/customstyle.css')}}" rel="stylesheet">
+    <link rel="canonical" href="{{URL::current()}}">
     <link href="{{asset('css/tableof-responsive.css')}}" rel="stylesheet">
     
     <title>@yield('meta_title')</title>
@@ -52,10 +53,9 @@
         <div class="col-md-12">
             <div class="row">
                 <div class="col-sm-6 col-md-4">
-                    <h4>TableOf</h4>
                     <div class="footer-logo">
                         <a href="{{url('/')}}">
-                           <img style="width: 100px;" src="{{asset('images/tableof-logo.png')}}">
+                           <img style="width: 100px;" src="{{asset('images/tableof-logo.png')}}"  alt="Table of logo" >
                         </a>
                     </div>
 
@@ -68,20 +68,20 @@
                     <h4>QUICK LINKS</h4>
                     <ul class="footer-links">
                         <li>
-                         <a href="#">Test/Quiz</a>
+                         <a href="{{url('/')}}/test-quiz">Test/Quiz</a>
                         </li>
                        
                         <li>
-                            <a href="#">Contact Us </a>
+                            <a href="{{url('/')}}/contact-us">Contact Us </a>
                         </li>
                         <li>
-                            <a href="#">Privacy Policy</a>
+                            <a href="{{url('/')}}/privacy-policy">Privacy Policy</a>
                         </li>
                         <li>
-                            <a href="#">Terms & Conditions </a>
+                            <a href="{{url('/')}}/terms-and-conditions">Terms & Conditions </a>
                         </li>
                         <li>
-                            <a href="#">Disclaimer</a>
+                            <a href="{{url('/')}}/disclaimer">Disclaimer</a>
                         </li>
 
                     </ul>

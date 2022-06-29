@@ -4,7 +4,7 @@
             <div class="row">
                 <nav class="navbar navbar-expand-lg navbar-light ">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="{{url('/')}}"><img src="{{asset('images/tableof-logo.png')}}" style="width: 100px;" /></a>
+                        <a class="navbar-brand" href="{{url('/')}}"><img src="{{asset('images/tableof-logo.png')}}" style="width: 100px;" alt="Table of"/></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -50,10 +50,10 @@
                                     <a class=" " href="{{url('/')}}/multiplication-tables/tables-of-11-to-20">Table of 11 to 20 </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class=" " href="#">About </a>
+                                    <a class=" " href="{{url('/')}}/about-us">About </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class=" " href="#">Contact </a>
+                                    <a class=" " href="{{url('/')}}/contact-us">Contact </a>
                                 </li>
 
                             </div>
