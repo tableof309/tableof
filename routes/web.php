@@ -21,6 +21,7 @@ use Illuminate\Support\Facades\Route;
     Route::get('/contact-us', 'HomeController@contact_us')->name('home');
     Route::get('/privacy-policy', 'HomeController@privacy_policy')->name('home');
     Route::get('/terms-and-conditions', 'HomeController@terms_and_conditions')->name('home');
+    Route::get('/test-quiz', 'HomeController@test_quiz')->name('home');
 
     Route::get('/multiplication-tables/table-of-{id?}', 'HomeController@multiplication_table');
     Route::get('/multiplication-tables/tables-of-{id}-to-{ids}', 'HomeController@multiplicationTwoToTwenty');

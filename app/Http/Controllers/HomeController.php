@@ -32,6 +32,10 @@ class HomeController extends BaseController
      {
          return view('frontend.pages.terms-and-conditions-page');
      }
+     public function test_quiz()
+     {
+         return view('frontend.pages.test-quiz-page');
+     }
      public function multiplication_table($id)
      {
             $methodtoread = getMethodToRead();
