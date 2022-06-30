@@ -1,60 +1,80 @@
 @extends('frontend.layouts.home')
 @section('meta_title')
-Table of {{$tableof }} | Learn Multiplication Table of {{$tableof }}  Maths | {{$tableof }} Times Table
+table of {{$begtableof }} to {{$endtableof }}  | Learn Multiplication Table of {{$begtableof }} to {{$endtableof }}  Maths | from {{$begtableof }} to {{$endtableof }} Times Table
 @endsection('meta_title')
 @section('meta_keyword')
-table of {{$tableof }}, {{$tableof }} times table, {{$tableof }} multiplication table, {{$tableof }} table, {{$tableof }}th table maths, {{$tableof }}th table @endsection('meta_keyword')
+table of {{$begtableof }} to {{$endtableof }}, {{$begtableof }} to {{$endtableof }} times table, {{$begtableof }} to {{$endtableof }} multiplication table, {{$begtableof }} to {{$endtableof }} table, {{$begtableof }}th to {{$endtableof }}th table maths, {{$begtableof }}th to {{$endtableof }}th table @endsection('meta_keyword')
 @section('meta_description')
-Come and learn your multiplication table of {{$tableof }} . Learn Table of  {{$tableof }} and memorize on your fingertips. Understand the tricks to learn  {{$tableof }} table in an easy way at  table-of.com
+Come and learn your multiplication table of {{$begtableof }} to {{$endtableof }}. Learn Table from  {{$begtableof }} to {{$endtableof }} and memorize on your fingertips. Understand the tricks to learn  {{$begtableof }} to {{$endtableof }} table in an easy way at  table-of.com
 @endsection('meta_description')
 @section('content')
 <div class="container inner-page-wrap">
 <div class="row">
    <div class="col-md-8">
-      <h1>Table of {{$tableof}}</h1>
+      <h1>Tables {{$begtableof }} to {{$endtableof }}</h1>
       <div class="col-md-12">
          <div class="row">
-            <p><strong>Table of {{$tableof}}</strong> is referred to as multiples of four, which is quite similar to the table of two. The 4 times table also aids children in keeping track of even numbers. Students who memories multiplication tables find it more easier and faster to solve math problems in their heads. In real life, a 4 times table is frequently used while going to the market or determining the price of an item.</p>
-            <h2>{{$tableof}} Times Table up to 20</h2>
-            <div class="table-responsive tablefortable">
-               <table class="table table-hover table-bordered ">
-                  <tbody>
-                     <tr>
-                        <td colspan="100"><strong>{{$tableof}} Times table </strong></td>
-                     </tr>
-                     @for ($i =1; $i <=10; $i++)
-                     <tr>
-                        @for($j=0;$j<=1;$j++)
-                        <td>{{$tableof}} × {{$i+($j*10)}} = {{$tableof*($i+($j*10))}}</td>
+            <p><strong>Tables {{$begtableof }} to {{$endtableof }}</strong> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            </p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged..</p>
+            @for ($m =1; $m <=20; $m+=5)
+               @php
+                  $fromTable = ($m==1)?2:$m;
+                  $toTable   =  $m+4;
+               @endphp
+               <h2>Tables from {{$fromTable}} to {{$toTable}}</h2>
+               <div class="table-responsive tablefortable">
+                  <table class="table table-hover table-bordered ">
+                     <tbody>
+                        @for ($i =0; $i <=10; $i++)
+                           @if($i==0)
+                           <tr>
+                              @for ($j =$fromTable; $j <=$toTable; $j++)
+                              <td>Table of {{$j}}</td>
+                              @endfor
+                              </tr>
+                              @else
+                              <tr>
+                              @for ($k =$fromTable; $k <=$toTable; $k++)
+                              <td>{{$k}} × {{$i}} = {{$k*$i}}</td>
+                              @endfor
+                           </tr>
+                           @endif
                         @endfor
-<!--                         <td>{{$tableof}} × {{$i+10}} = {{$tableof*($i+10)}}</td>
- -->                     </tr>
-                     @endfor
-                  </tbody>
-               </table>
-            </div>
-            <h2>{{$tableof}} Times Table up to 50</h2>
-            <div class="table-responsive tablefortable">
-               <table class="table table-hover table-bordered ">
-                  <tbody>
-                     <tr>
-                        <td colspan="100"><strong>{{$tableof}} Times table </strong></td>
-                     </tr>
-                     @for ($i =1; $i <=10; $i++)
-                     <tr>
-                         @for($j=0;$j<=4;$j++)
-                        <td>{{$tableof}} × {{$i+($j*10)}} = {{$tableof*($i+($j*10))}}</td>
-                        @endfor
-                     </tr>
-                     @endfor
-                  </tbody>
-               </table>
+                     </tbody>
+                  </table>
+               </div>
+            @endfor
+            <div class="row ">
+               <div class="col-sm-12">
+                  <div class="card p-0">
+                     <div class="card-header">
+                        <h2>Maths Tables 2 to 20 Tricks</h2>
+                     </div>
+                     <div class="card-body">
+                        <div class="row p-0">
+                            
+                           <div class="col-sm-12">
+                              <ul>
+                                 <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                                 <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</li>
+                                 <li>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</li>
+                                 <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                                 <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</li>
+                                 <li>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</li>
+                                  
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
             <h2>Multiplication Table of {{$tableof}} chart</h2>
-            <p>Students would find this {{$tableof}} table chart interesting to read and learn. Student can download complete free online Table of {{$tableof}} chart.</p>
+            <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged Table of {{$tableof}} chart.</p>
             <p></p>
             <!-- <a href="{{asset('storage/jn4riL9N3ayIdWNCZke7o1MOn57isSKRjJUYM4g8.jpg')}}">
-               <img src="{{asset('storage/jn4riL9N3ayIdWNCZke7o1MOn57isSKRjJUYM4g8.jpg')}}" class="img-fluid img-thumbnail">
+               <img src="{{asset('storage/jn4riL9N3ayIdWNCZke7o1MOn57isSKRjJUYM4g8.jpg')}}" width="750" height="469">
                <figcaption class="attachment__caption attachment__caption--edited">Free download Table of {{$tableof}} Chart</figcaption>
             </a> -->
             <p></p>
@@ -103,6 +123,7 @@ Come and learn your multiplication table of {{$tableof }} . Learn Table of  {{$t
                   </tbody>
                </table>
             </div>
+
             <div class="row ">
                <div class="col-sm-12">
                   <div class="card p-0">
@@ -114,7 +135,7 @@ Come and learn your multiplication table of {{$tableof }} . Learn Table of  {{$t
                            @for ($i =1; $i <=20; $i++)
                            @if($i != $tableof)
                            <div class="col-sm-4">
-                              <a class="btn btn-link" href="{{url('/')}}/multiplication-tables/table-of-{{$i}}"> Table of {{$i}}</a>
+                              <a class="btn btn-link" href="{{url('/')}}/multiplication-tables/table-of/{{$i}}"> Table of {{$i}}</a>
                            </div>
                            @endif
                            @endfor

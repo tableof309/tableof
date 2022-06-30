@@ -14,7 +14,7 @@ Come and learn your multiplication table of {{$tableof }} . Learn Table of  {{$t
       <h1>Table of {{$tableof}}</h1>
       <div class="col-md-12">
          <div class="row">
-            <p><strong>Table of {{$tableof}}</strong> is referred to as multiples of four, which is quite similar to the table of two. The 4 times table also aids children in keeping track of even numbers. Students who memories multiplication tables find it more easier and faster to solve math problems in their heads. In real life, a 4 times table is frequently used while going to the market or determining the price of an item.</p>
+            <p><strong>Table of {{$tableof}}</strong> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. .</p>
             <h2>{{$tableof}} Times Table up to 20</h2>
             <div class="table-responsive tablefortable">
                <table class="table table-hover table-bordered ">
@@ -51,7 +51,7 @@ Come and learn your multiplication table of {{$tableof }} . Learn Table of  {{$t
                </table>
             </div>
             <h2>Multiplication Table of {{$tableof}} chart</h2>
-            <p>Students would find this {{$tableof}} table chart interesting to read and learn. Student can download complete free online Table of {{$tableof}} chart.</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged {{$tableof}} chart.</p>
             <p></p>
             <!-- <a href="{{asset('storage/jn4riL9N3ayIdWNCZke7o1MOn57isSKRjJUYM4g8.jpg')}}">
                <img src="{{asset('storage/jn4riL9N3ayIdWNCZke7o1MOn57isSKRjJUYM4g8.jpg')}}" class="img-fluid img-thumbnail">

@@ -291,6 +291,7 @@
             </div>
         </div>
         </div>
+        @include('frontend.pages.disclaimer')
         </div>
     </section>
 

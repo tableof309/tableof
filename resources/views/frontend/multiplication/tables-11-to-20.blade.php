@@ -1,14 +1,22 @@
 @extends('frontend.layouts.home')
-@section('title','Home')
+@section('meta_title')
+table of {{$begtableof }} to {{$endtableof }}  | Learn Multiplication Table of {{$begtableof }} to {{$endtableof }}  Maths | from {{$begtableof }} to {{$endtableof }} Times Table
+@endsection('meta_title')
+@section('meta_keyword')
+table of {{$begtableof }} to {{$endtableof }}, {{$begtableof }} to {{$endtableof }} times table, {{$begtableof }} to {{$endtableof }} multiplication table, {{$begtableof }} to {{$endtableof }} table, {{$begtableof }}th to {{$endtableof }}th table maths, {{$begtableof }}th to {{$endtableof }}th table @endsection('meta_keyword')
+@section('meta_description')
+Come and learn your multiplication table of {{$begtableof }} to {{$endtableof }}. Learn Table from  {{$begtableof }} to {{$endtableof }} and memorize on your fingertips. Understand the tricks to learn  {{$begtableof }} to {{$endtableof }} table in an easy way at  table-of.com
+@endsection('meta_description')
 @section('content')
 <div class="container inner-page-wrap">
 <div class="row">
    <div class="col-md-8">
-      <h1>Tables 2 to 20</h1>
+      <h1>Tables {{$begtableof }} to {{$endtableof }}</h1>
       <div class="col-md-12">
          <div class="row">
-            <p><strong>Tables 2 to 20</strong> make multiplication extremely effortless and increases your problem-solving abilities. Even with the availability of calculators, memorizing the multiplication tables from 2 to 20 still remains an extremely powerful tool. Therefore, if you want to reduce your stress while doing math calculations of multiplication, fractions, ratios, and division you must recognize the numbers in the multiplication tables.</p>
-            <p>So, here is the solution for you. In this mini-lesson, you will learn multiplication tables from 2 to 20. Along with these multiplication tables, you will be provided all sorts of tips and tricks for quick and easy calculations. We have also provided printable multiplication tables 2 to 20 to assist students in prioritizing and planning their revision.</p>
+            <p><strong>Tables {{$begtableof }} to {{$endtableof }}</strong> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            </p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged..</p>
             @for ($m =1; $m <=20; $m+=5)
                @php
                   $fromTable = ($m==1)?2:$m;
@@ -48,13 +56,13 @@
                             
                            <div class="col-sm-12">
                               <ul>
-                                 <li>Every number in multiplication table 2 to 20 is a whole number.</li>
-                                 <li>Table of 2 follows the pattern of 2, 4, 6, 8, 0 at one's digit place.</li>
-                                 <li>In the table of 5, the last digit of the multiples is either 0 or 5.</li>
-                                 <li>Multiplying an even number by 6 gives the same even number as the last digit in the product. For example, 6 × 4 = 24 , 6 × 6 = 36 , 6 x 8 = 48.</li>
-                                 <li>You can also refer to the 16 times tables and 18 times table to get the 17 times table. In the 18 times table, we subtract natural numbers (1 to 10) from the multiples of 18 and in the 16 times table, we add natural numbers (1-10) to the multiples of 16 to get the 17 times table.</li>
-                                 <li>Table of 19 has a pattern for every ten multiples. Write the 1st 10 odd numbers in a sequence in the ten's place. Now from the reverse side, start writing the numbers from 0 to 9 in the unit's place.</li>
-                                 <li>To memorize the 20 times table, you need to memorize the 2 times table. Add 0 to the unit's place in the multiples of 2 to obtain the multiples of 20.</li>
+                                 <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                                 <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</li>
+                                 <li>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</li>
+                                 <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                                 <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</li>
+                                 <li>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</li>
+                                  
                               </ul>
                            </div>
                         </div>
@@ -63,12 +71,12 @@
                </div>
             </div>
             <h2>Multiplication Table of {{$tableof}} chart</h2>
-            <p>Students would find this {{$tableof}} table chart interesting to read and learn. Student can download complete free online Table of {{$tableof}} chart.</p>
+            <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged Table of {{$tableof}} chart.</p>
             <p></p>
-            <a href="{{asset('storage/jn4riL9N3ayIdWNCZke7o1MOn57isSKRjJUYM4g8.jpg')}}">
+            <!-- <a href="{{asset('storage/jn4riL9N3ayIdWNCZke7o1MOn57isSKRjJUYM4g8.jpg')}}">
                <img src="{{asset('storage/jn4riL9N3ayIdWNCZke7o1MOn57isSKRjJUYM4g8.jpg')}}" width="750" height="469">
                <figcaption class="attachment__caption attachment__caption--edited">Free download Table of {{$tableof}} Chart</figcaption>
-            </a>
+            </a> -->
             <p></p>
             <h2>How to read &amp; write {{$tableof}} Times Table</h2>
             <div class="table-responsive">
@@ -187,17 +195,7 @@
                </div>
             </div>
          </div>
-         <div class="disclaimer-all-page">
-            <h3> Disclaimer </h3>
-            <p class="mb-1">
-               While every effort has been done in developing this calculator, we are not accountable for any
-               incidental or consequential damages arising from
-               the use of the calculator tools on our web site. These tools serve to visitors as a free
-               calculator tool. Please use at your own risk.
-               The calculations provided are just a guide. You are advised to speak to a professional financial
-               advisor before taking any financial decision. 
-            </p>
-         </div>
+         @include('frontend.pages.disclaimer')
       </div>
       </div>
       <div class="col-md-4">
