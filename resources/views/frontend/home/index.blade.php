@@ -234,16 +234,16 @@
 
                             <ul class="aim-points">
                                 <li>
-                                  We Improve the quality of life by Educating.
+                                  We Want to imrove education quality for better life.
                                 </li>
                                 <li>
-                                   Encouraging the next generation to success.
+                                   Best Way to motivate next Generation to Study.
                                 </li>
                                 <li>
                                   Learn to Play and Communicate Confidently.
                                 </li>
                                 <li>
-                                  Children’s development in a nurturing atmosphere.
+                                  Children’s development in a nurturing mind.
                                 </li>
                                 <li>
                                   Early childhood care and education of the highest calibre.
@@ -263,6 +263,7 @@
 
         </div>
     </section>
+    <!--
     <section>
         <div class="container">
         
@@ -272,7 +273,7 @@
                 <div class="col-md-12 col-lg-6 about-box">
                     <h3>About TableOf</h3>
                     <p>
-                    Duplication Tables, or basically Tables, are a plain portrayal of the increase of numbers. Arithmetic is based on the underpinning of tables...
+                    multiplication Tables, or basically Tables of numbers, are a basic addition of the increase of same numbers. 
                     </p>
                     <a href="{{url('/')}}/about-us">Read More</a>
                 </div>
@@ -294,5 +295,6 @@
         @include('frontend.pages.disclaimer')
         </div>
     </section>
+-->
 
 @endsection
