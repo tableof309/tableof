@@ -1,6 +1,6 @@
       <div class="disclaimer-all-page">
             <h3> Disclaimer </h3>
             <p class="mb-1">
-               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+              All of the written content included about the table-of.com is edited, examined, and also tested for exactness as much as it's possible to achieve this. However, we can't ensure either its correctness or the wellbeing of any external links it may include table-of.com, along with its Owner,internet marketers, and also surrounding creators of these multiplication tables that help children to understanding of basic multiplication table more accurately with this website.
             </p>
          </div>
