@@ -26,9 +26,9 @@
     <META name="allow-search" content="yes">
     <META name="expires" content="never">
      <!--Meta Data Structure-->
-     <!--googe add veryfi-->
-       <script defer async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8673849322443357"
-     crossorigin="anonymous"></script>  
+     <!--googe add veryfication-->
+       <!-- <script defer async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8673849322443357"
+     crossorigin="anonymous"></script>   -->
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script  defer async src="https://www.googletagmanager.com/gtag/js?id=UA-232924169-1"></script>
