@@ -19,12 +19,12 @@
     <meta name="Language" content="English"/>
     <meta name="Publisher" content="TableOf"/>
     <meta name="distribution" content="LOCAL"/>
-    <meta name="page-topic" content="TableOf">
-    <META name="YahooSeeker" content="INDEX, FOLLOW">
-    <META name="msnbot" content="INDEX, FOLLOW">
+    <meta name="page-topic" content="TableOf"/>
+    <meta name="YahooSeeker" content="INDEX, FOLLOW"/>
+    <meta name="msnbot" content="INDEX, FOLLOW"/>
     <meta name="googlebot" content="index,follow"/>
-    <META name="allow-search" content="yes">
-    <META name="expires" content="never">
+    <meta name="allow-search" content="yes"/>
+    <meta name="expires" content="never"/>
      <!--Meta Data Structure-->
      <!--googe add veryfication-->
        <!-- <script defer async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8673849322443357"

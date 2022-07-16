@@ -11,14 +11,14 @@
                         <h2> Multiplication Tables</h2>
                     </div>
                     <div class="col-md-6">
-                        <P>
+                        <p>
                         A multiplication table is a list of multiplications of numbers. By multiplying the given integer number by whole numbers, we may get the multiplication table. Table-of is a calculator that needs you learn how to multiply two integer numbers. Multiplication is one of the fundamental mathematical processes that students are taught from a nursary age. A multiplication table is a basic way of teaching kids the concept of multiplication.  When performing simple arithmetic multiplication, calculations, times tables can be incredibly useful.
-                        </P>
+                        </p>
                     </div>
                     <div class="col-md-6">
                         <p>
                         Multiplication table helps as beginninga for advance arithmetic problems such as fractions, exponents and more. table-of multiplication table are help you in multiy numbers tables quickly. A multiplication chart is a table that displays the result of multiplying two integers together. One set of numbers is usually put in the left column, while the other is written in the top row. When calculating math, having a multiplication chart saves a lot of time and effort.
-                        </P>
+                        </p>
                     </div>
 
                 </div>
@@ -26,10 +26,8 @@
             </div>
         </div>
     </section>
-
-<div class="container home-table-section">
+    <div class="container home-table-section">
         @include('frontend.home.section-table-2-to-20')
-
         <div class="col-md-12 table-one-ten">
             <div class="row">
                 <div class="table-container">
@@ -119,10 +117,8 @@
                                 <td><span style="font-weight: 400;">5 × 10 = 50</span></td>
                             </tr>
                             </tbody>
-                        </table></div>
-
-
-
+                        </table>
+                    </div>
                     <div class="table-responsive">
                         <table class="table-bordered">
                             <tbody>
@@ -208,21 +204,11 @@
                         </table>
                     </div>
                 </div>
-
             </div>
         </div>
-
-         
-
-
     </div>
-
-    
-
     <section class="container-fluid our-aim-wrap">
         <div class="container">
-
-
             <div class="col-md-12">
                 <div class="row">
                     <div class="col-md-12 col-lg-6 d-none d-lg-block">
@@ -256,45 +242,6 @@
                     </div>
                 </div>
             </div>
-
-
-
-
-
         </div>
     </section>
-    <!--
-    <section>
-        <div class="container">
-        
-        <div class="row">
-              <div class="col-md-12 ">
-            <div class="row">
-                <div class="col-md-12 col-lg-6 about-box">
-                    <h3>About TableOf</h3>
-                    <p>
-                    multiplication Tables, or basically Tables of numbers, are a basic addition of the increase of same numbers. 
-                    </p>
-                    <a href="{{url('/')}}/about-us">Read More</a>
-                </div>
-                <div class="col-md-12 col-lg-6 our-mission-box">
-                    <h3>Our Mission</h3>
-                   
-                       <ol>
-                           <li>
-                           Giving top notch mathematics training and ingraining an examination mentality through imaginative learning and exploration techniques.
-                           </li>
-
-                       </ol>
-                    
-                    <a href="{{url('/')}}/our-mission">Read More</a>
-                </div>
-            </div>
-        </div>
-        </div>
-        @include('frontend.pages.disclaimer')
-        </div>
-    </section>
--->
-
 @endsection
