@@ -17,9 +17,9 @@ Come and learn your multiplication table of {{$begtableof }} to {{$endtableof }}
             <p><strong>Tables {{$begtableof }} to {{$endtableof }}</strong> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
             </p>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged..</p>
-            @for ($m =($begtableof-1); $m <=($endtableof-1); $m+=5)
+            @for ($m =$begtableof; $m <=$endtableof; $m+=5)
                @php
-                  $fromTable = ($m==1)?2:$m;
+                  $fromTable =  $m;
                   $toTable   =  $m+4;
                @endphp
                <h2>Tables from {{$fromTable}} to {{$toTable}}</h2>
@@ -149,21 +149,7 @@ Come and learn your multiplication table of {{$begtableof }} to {{$endtableof }}
                </div>
             </div>
             <div class="row table-test-wrap">
-               <h2> Table of 
-                  <select id="game_table">
-
-                      @for ($i =$begtableof; $i <=$endtableof; $i++)
-                        @if($i==1)
-                           @php
-                              $tableof = $i;
-                           @endphp
-
-                        @endif
-
-                     <option value="{{$i}}">{{$i}}</option>
-                      @endfor
-                  </select>
-               <!-- {{$tableof}} --> practice game online</h2>
+               <h2> Table of {{$tableof}} practice game online</h2>
                <div class="col-md-6">
                   <ul>
                      @for ($i =1; $i <=5; $i++)
@@ -216,11 +202,6 @@ Come and learn your multiplication table of {{$begtableof }} to {{$endtableof }}
 @section('pagespecificscripts')
 <script  defer>
    $(document).ready(function(){
-
-         $("#game_table").on('change',function(){
-            var valuefirst = $(this).val();
-            $('.tableNum').text(valuefirst);
-         });
           $(".getNumb").keyup(function(event) {
               if (event.keyCode === 13) {
                   $(".check-ans").click();

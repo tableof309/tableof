@@ -73,6 +73,7 @@ Come and learn your multiplication table of {{$begtableof }} to {{$endtableof }}
             <h2>Multiplication Table of {{$tableof}} chart</h2>
             <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged Table of {{$tableof}} chart.</p>
             <p></p>
+            <p></p>
             <h2>How to read &amp; write {{$tableof}} Times Table</h2>
             <div class="table-responsive">
                <table class="table table-bordered  write-method text-center table-hover">

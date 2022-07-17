@@ -49,7 +49,7 @@ Come and learn your multiplication table of {{$begtableof }} to {{$endtableof }}
                <div class="col-sm-12">
                   <div class="card p-0">
                      <div class="card-header">
-                        <h2>Maths Tables 2 to 20 Tricks</h2>
+                        <h2>Maths Tables {{$begtableof }} to {{$endtableof }} Tricks</h2>
                      </div>
                      <div class="card-body">
                         <div class="row p-0">
@@ -72,11 +72,6 @@ Come and learn your multiplication table of {{$begtableof }} to {{$endtableof }}
             </div>
             <h2>Multiplication Table of {{$tableof}} chart</h2>
             <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged Table of {{$tableof}} chart.</p>
-            <p></p>
-            <!-- <a href="{{asset('storage/jn4riL9N3ayIdWNCZke7o1MOn57isSKRjJUYM4g8.jpg')}}">
-               <img src="{{asset('storage/jn4riL9N3ayIdWNCZke7o1MOn57isSKRjJUYM4g8.jpg')}}" width="750" height="469">
-               <figcaption class="attachment__caption attachment__caption--edited">Free download Table of {{$tableof}} Chart</figcaption>
-            </a> -->
             <p></p>
             <h2>How to read &amp; write {{$tableof}} Times Table</h2>
             <div class="table-responsive">
@@ -154,7 +149,21 @@ Come and learn your multiplication table of {{$begtableof }} to {{$endtableof }}
                </div>
             </div>
             <div class="row table-test-wrap">
-               <h2> Table of {{$tableof}} practice game online</h2>
+               <h2> Table of 
+                  <select id="game_table">
+
+                      @for ($i =$begtableof; $i <=$endtableof; $i++)
+                        @if($i==1)
+                           @php
+                              $tableof = $i;
+                           @endphp
+
+                        @endif
+
+                     <option value="{{$i}}">{{$i}}</option>
+                      @endfor
+                  </select>
+                practice game online</h2>
                <div class="col-md-6">
                   <ul>
                      @for ($i =1; $i <=5; $i++)
@@ -207,6 +216,11 @@ Come and learn your multiplication table of {{$begtableof }} to {{$endtableof }}
 @section('pagespecificscripts')
 <script  defer>
    $(document).ready(function(){
+
+      $("#game_table").on('change',function(){
+            var valuefirst = $(this).val();
+            $('.tableNum').text(valuefirst);
+         });
           $(".getNumb").keyup(function(event) {
               if (event.keyCode === 13) {
                   $(".check-ans").click();

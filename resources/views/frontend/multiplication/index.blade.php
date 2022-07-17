@@ -53,10 +53,10 @@ Come and learn your multiplication table of {{$tableof }} . Learn Table of  {{$t
             <h2>Multiplication Table of {{$tableof}} chart</h2>
             <p>Students would find this {{$tableof}} table chart interesting to read and learn. Student can download complete free online Table of {{$tableof}} chart.</p>
             <p></p>
-            <!-- <a href="{{asset('storage/jn4riL9N3ayIdWNCZke7o1MOn57isSKRjJUYM4g8.jpg')}}">
-               <img src="{{asset('storage/jn4riL9N3ayIdWNCZke7o1MOn57isSKRjJUYM4g8.jpg')}}" class="img-fluid img-thumbnail">
+            <a href="{{asset('storage/table-of-'.$tableof.'.png')}}" download="table-of-{{$tableof}}.png">
+               <img src="{{asset('storage/table-of-'.$tableof.'.png')}}" class="img-fluid img-thumbnail" alt="table of {{$tableof}} "/>
                <figcaption class="attachment__caption attachment__caption--edited">Free download Table of {{$tableof}} Chart</figcaption>
-            </a> -->
+            </a>
             <p></p>
             <h2>How to read &amp; write {{$tableof}} Times Table</h2>
             <div class="table-responsive">

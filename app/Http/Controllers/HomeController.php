@@ -119,8 +119,14 @@ class HomeController extends BaseController
         $tableof        = $id;
         $concat  = $id."_".$ids;
         switch ($concat) {
+            case '1_20':
+                    return view('frontend.multiplication.tables-1-to-20',compact('tableof','begtableof','endtableof'));
+                break;
             case '2_10':
                     return view('frontend.multiplication.tables-2-to-10',compact('tableof','begtableof','endtableof'));
+                break;
+            case '1_10':
+                    return view('frontend.multiplication.tables-1-to-10',compact('tableof','begtableof','endtableof'));
                 break;
             case '2_20':
                     return view('frontend.multiplication.tables-2-to-20',compact('tableof','begtableof','endtableof'));
