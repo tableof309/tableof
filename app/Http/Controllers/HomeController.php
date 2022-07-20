@@ -40,70 +40,70 @@ class HomeController extends BaseController
      {
             $methodtoread = getMethodToRead();
             $tableof = $id;
-
+            $tableof_str = $tableof;
             switch ($id) {
                 case '1':
-                        return view('frontend.multiplication.table-of-1',compact('tableof'));           
+                        return view('frontend.multiplication.table-of-1',compact('tableof','tableof_str'));           
                     break;
                 case '2':
-                        return view('frontend.multiplication.table-of-2',compact('tableof'));           
+                        return view('frontend.multiplication.table-of-2',compact('tableof','tableof_str'));           
                     break;
                 case '3':
-                        return view('frontend.multiplication.table-of-3',compact('tableof'));
+                        return view('frontend.multiplication.table-of-3',compact('tableof','tableof_str'));
                     break;
                 case '4':
-                        return view('frontend.multiplication.table-of-4',compact('tableof'));
+                        return view('frontend.multiplication.table-of-4',compact('tableof','tableof_str'));
                     break;
                 case '5':
-                        return view('frontend.multiplication.table-of-5',compact('tableof'));
+                        return view('frontend.multiplication.table-of-5',compact('tableof','tableof_str'));
                     break;
                 case '6':
-                        return view('frontend.multiplication.table-of-6',compact('tableof'));
+                        return view('frontend.multiplication.table-of-6',compact('tableof','tableof_str'));
                     break;
                 case '7':
-                        return view('frontend.multiplication.table-of-7',compact('tableof'));
+                        return view('frontend.multiplication.table-of-7',compact('tableof','tableof_str'));
                     break;
                 case '8':
-                        return view('frontend.multiplication.table-of-8',compact('tableof'));
+                        return view('frontend.multiplication.table-of-8',compact('tableof','tableof_str'));
                     break;
                 case '9':
-                        return view('frontend.multiplication.table-of-9',compact('tableof'));
+                        return view('frontend.multiplication.table-of-9',compact('tableof','tableof_str'));
                     break;
                 case '10':
-                        return view('frontend.multiplication.table-of-10',compact('tableof'));           
+                        return view('frontend.multiplication.table-of-10',compact('tableof','tableof_str'));           
                     break;
                 case '11':
-                        return view('frontend.multiplication.table-of-11',compact('tableof'));
+                        return view('frontend.multiplication.table-of-11',compact('tableof','tableof_str'));
                     break;
                 case '12':
-                        return view('frontend.multiplication.table-of-12',compact('tableof'));
+                        return view('frontend.multiplication.table-of-12',compact('tableof','tableof_str'));
                     break;
                 case '13':
-                        return view('frontend.multiplication.table-of-13',compact('tableof'));
+                        return view('frontend.multiplication.table-of-13',compact('tableof','tableof_str'));
                     break;
                 case '14':
-                        return view('frontend.multiplication.table-of-14',compact('tableof'));
+                        return view('frontend.multiplication.table-of-14',compact('tableof','tableof_str'));
                     break;
                 case '15':
-                        return view('frontend.multiplication.table-of-15',compact('tableof'));
+                        return view('frontend.multiplication.table-of-15',compact('tableof','tableof_str'));
                     break;
                 case '16':
-                        return view('frontend.multiplication.table-of-16',compact('tableof'));
+                        return view('frontend.multiplication.table-of-16',compact('tableof','tableof_str'));
                     break;
                 case '17':
-                        return view('frontend.multiplication.table-of-17',compact('tableof'));
+                        return view('frontend.multiplication.table-of-17',compact('tableof','tableof_str'));
                     break;
                 case '18':
-                        return view('frontend.multiplication.table-of-18',compact('tableof'));
+                        return view('frontend.multiplication.table-of-18',compact('tableof','tableof_str'));
                     break;
                 case '19':
-                        return view('frontend.multiplication.table-of-19',compact('tableof'));
+                        return view('frontend.multiplication.table-of-19',compact('tableof','tableof_str'));
                     break;
                 case '20':
-                        return view('frontend.multiplication.table-of-20',compact('tableof'));
+                        return view('frontend.multiplication.table-of-20',compact('tableof','tableof_str'));
                     break;
                 default:
-                    return view('frontend.multiplication.index',compact('tableof'));           
+                    return view('frontend.multiplication.index',compact('tableof','tableof_str'));           
                     break;
             }
 
@@ -118,24 +118,26 @@ class HomeController extends BaseController
         $endtableof        = $ids;
         $tableof        = $id;
         $concat  = $id."_".$ids;
+
+        $tableof_str = $id." To ".$ids;
         switch ($concat) {
             case '1_20':
-                    return view('frontend.multiplication.tables-1-to-20',compact('tableof','begtableof','endtableof'));
+                    return view('frontend.multiplication.tables-1-to-20',compact('tableof','begtableof','endtableof','tableof_str'));
                 break;
             case '2_10':
-                    return view('frontend.multiplication.tables-2-to-10',compact('tableof','begtableof','endtableof'));
+                    return view('frontend.multiplication.tables-2-to-10',compact('tableof','begtableof','endtableof','tableof_str'));
                 break;
             case '1_10':
-                    return view('frontend.multiplication.tables-1-to-10',compact('tableof','begtableof','endtableof'));
+                    return view('frontend.multiplication.tables-1-to-10',compact('tableof','begtableof','endtableof','tableof_str'));
                 break;
             case '2_20':
-                    return view('frontend.multiplication.tables-2-to-20',compact('tableof','begtableof','endtableof'));
+                    return view('frontend.multiplication.tables-2-to-20',compact('tableof','begtableof','endtableof','tableof_str'));
                 break;
             case '11_20':
-                    return view('frontend.multiplication.tables-11-to-20',compact('tableof','begtableof','endtableof'));
+                    return view('frontend.multiplication.tables-11-to-20',compact('tableof','begtableof','endtableof','tableof_str'));
                 break;
             default:
-                return view('frontend.multiplication.tables-beg-to-end',compact('tableof','begtableof','endtableof'));
+                return view('frontend.multiplication.tables-beg-to-end',compact('tableof','begtableof','endtableof','tableof_str'));
                 break;
         }
          

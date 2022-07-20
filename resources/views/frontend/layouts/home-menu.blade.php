@@ -23,19 +23,21 @@
                                       <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 
                                          @php
-                                            $tableof = 1;
+                                            $tableof1 = 1;
                                         @endphp
                                      @for ($i =1; $i <=4; $i++)
 
                                         
                                             @for ($j =1; $j <=5; $j++)
-                                            <li><a class="dropdown-item" href="{{url('/')}}/multiplication-tables/table-of-{{$tableof}}"> Table of {{$tableof}}</a></li>
+                                            <li><a class="dropdown-item" href="{{url('/')}}/multiplication-tables/table-of-{{$tableof1}}"> Table of {{$tableof1}}</a></li>
                                             
                                             @php
-                                                $tableof+= 1;
+                                                $tableof1+= 1;
                                             @endphp
                                             @endfor  
                                         @endfor
+
+                                         
                                     </ul>
                                     
                                 </li>

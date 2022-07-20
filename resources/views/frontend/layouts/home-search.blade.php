@@ -1,6 +1,6 @@
 <div class="row">
 	<div class="col-md-12 text-center">
-	    <h1> Online Multiplication Table <span style="color: #f5b803;">Think A Number</span> </h1>
+	    <h1> Online Multiplication <span style="color: #f5b803;">Table {{ (isset($tableof_str) && $tableof_str !=='') ? (' Of  '.$tableof_str) : 'Think A Number' }}</span> </h1>
 	    <p>with Exmaples, Download tables graph, play math quiz and compose tables, test (test) and numerous more...</p>
 
 	    <div class="search-bar">
