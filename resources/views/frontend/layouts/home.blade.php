@@ -83,6 +83,9 @@
                         <li>
                             <a href="{{url('/')}}/disclaimer">Disclaimer</a>
                         </li>
+                        <li>
+                            <a href="{{url('/')}}/sitemap">Site Map</a>
+                        </li>
 
                     </ul>
                 </div>
