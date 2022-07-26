@@ -131,7 +131,7 @@ Come and learn your multiplication table of {{$begtableof }} to {{$endtableof }}
                            @for ($i =1; $i <=20; $i++)
                            @if($i != $tableof)
                            <div class="col-sm-4">
-                              <a class="btn btn-link" href="{{url('/')}}/multiplication-tables/table-of/{{$i}}"> Table of {{$i}}</a>
+                              <a class="btn btn-link" href="{{url('/')}}/multiplication-tables/table-of-{{$i}}"> Table of {{$i}}</a>
                            </div>
                            @endif
                            @endfor
