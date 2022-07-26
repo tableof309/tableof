@@ -90,13 +90,8 @@
                     </ul>
                 </div>
                 <div class="col-sm-6 col-md-4">
-                    <h4>PARTNERS</h4>
-                    <ul class="footer-links">
-                        <li>
-                            <a href="{{url('/')}}" target="_blank">https://table-of.com</a>
-                        </li>
-                        
-                    </ul>
+                    <h4></h4>
+                     
                 </div>
 
             </div>
