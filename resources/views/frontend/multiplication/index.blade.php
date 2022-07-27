@@ -50,14 +50,7 @@ Come and learn your multiplication table of {{$tableof }} . Learn Table of  {{$t
                   </tbody>
                </table>
             </div>
-            <h2>Multiplication Table of {{$tableof}} chart</h2>
-            <p>Students would find this {{$tableof}} table chart interesting to read and learn. Student can download complete free online Table of {{$tableof}} chart.</p>
-            <p></p>
-            <a href="{{asset('storage/table-of-'.$tableof.'.png')}}" download="table-of-{{$tableof}}.png">
-               <img src="{{asset('storage/table-of-'.$tableof.'.png')}}" class="img-fluid img-thumbnail" alt="table of {{$tableof}} "/>
-               <figcaption class="attachment__caption attachment__caption--edited">Free download Table of {{$tableof}} Chart</figcaption>
-            </a>
-            <p></p>
+             
             <h2>How to read &amp; write {{$tableof}} Times Table</h2>
             <div class="table-responsive">
                <table class="table table-bordered  write-method text-center table-hover">
@@ -171,6 +164,16 @@ Come and learn your multiplication table of {{$tableof }} . Learn Table of  {{$t
                      <button class="check-ans-reset"> Reset</button>
                      <button class="check-ans"> Submit Answer</button>
                   </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-sm-12  col-xs-12">
+               <div >
+                  <a class=" text-xs-center next-prev-button float-start" href="{{url('/')}}/multiplication-tables/table-of-{{$tableof-1}}">Previous&nbsp;Table</a>   
+               </div>
+               <div >
+                  <a class="text-xs-center next-prev-button float-end" href="{{url('/')}}/multiplication-tables/table-of-{{$tableof+1}}">Next&nbsp;Table</a>   
+               </div>
                </div>
             </div>
          </div>

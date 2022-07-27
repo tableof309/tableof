@@ -173,6 +173,16 @@ Come and learn your multiplication table of {{$tableof }} . Learn Table of  {{$t
                   </div>
                </div>
             </div>
+            <div class="row">
+               <div class="col-sm-12  col-xs-12">
+               <div >
+                  <a class=" text-xs-center next-prev-button float-start" href="{{url('/')}}/multiplication-tables/table-of-{{$tableof-1}}">Previous&nbsp;Table</a>   
+               </div>
+               <div >
+                  <a class="text-xs-center next-prev-button float-end" href="{{url('/')}}/multiplication-tables/table-of-{{$tableof+1}}">Next&nbsp;Table</a>   
+               </div>
+               </div>
+            </div>
          </div>
          @include('frontend.pages.disclaimer')
       </div>

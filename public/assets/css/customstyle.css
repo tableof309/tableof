@@ -478,8 +478,13 @@ figure a img {
     float: right;
     margin-right: 100px;
 }
+a.next-prev-button{
+    text-decoration: none;
+    text-transform: capitalize;
+    
+}
 
-.form-btn-wrap button.check-ans {
+.form-btn-wrap button.check-ans,a.next-prev-button {
     border: 0;
     padding: 8px 31px;
     background: #f5b803;
@@ -508,7 +513,8 @@ button.check-ans-reset {
 
 button.check-ans.reset:hover { color:#252d42; background-color: transparent; border: solid 1px #252d42;}
 
-button.check-ans:hover {background: #252d42;}
+button.check-ans:hover,a.next-prev-button:hover{background: #218128;}
+
 .table-test-wrap .right-table, .table-test-wrap .wrong-table { position: relative; }
 .table-test-wrap .right-table::after, .table-test-wrap .wrong-table::after { position: absolute; width:30px; height: 31px; right:-8px; top:9px; content: '';}
 
