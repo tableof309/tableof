@@ -45,6 +45,11 @@ class HomeController extends BaseController
             $methodtoread = getMethodToRead();
             $tableof = $id;
             $tableof_str = $tableof;
+            if($tableof*20 > 9223372036854775807)
+            {
+                return redirect()->back();
+
+            }
             switch ($id) {
                 case '1':
                         return view('frontend.multiplication.table-of-1',compact('tableof','tableof_str'));           

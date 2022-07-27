@@ -144,6 +144,12 @@
                     return false
 
                 }
+                if(getvalue*10 > 9223372036854775807)
+                {
+                    alert("Please enter valid Number");
+                    $('.show-table').css('display','none');
+                    return false                    
+                }
                 
 
                 $('.show-table').css('display','block');
