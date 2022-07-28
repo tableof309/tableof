@@ -50,7 +50,40 @@ Come and learn your multiplication table of {{$tableof }} . Learn Table of  {{$t
                   </tbody>
                </table>
             </div>
-             
+             <div class="row">
+               <div class="col-sm-12  col-xs-12">
+               <div >
+                  Now we will learn how to do forward counting and backward counting by {{$tableof}}’s.
+               </div>
+               
+               </div>
+            </div>
+            <br>
+            <div class="row">
+               <div class="col-sm-12  col-xs-12">
+               <div >
+                  <span style="font-weight: 800;color: #218128;">Forward counting by {{$tableof}}’s: </span>  
+                  @for ($i =0; $i <=25; $i++)
+                   {{$tableof*$i}},
+                        
+                     @endfor ……
+               </div>
+               
+               </div>
+            </div>
+            <br>
+            <div class="row">
+               <div class="col-sm-12  col-xs-12">
+               <div >
+                  <span style="font-weight: 800;color: #218128;">Backward counting by {{$tableof}}’s: </span>  
+                  @for ($i =25; $i >=0; $i--)
+                   {{$tableof*$i}},
+                        
+                     @endfor ……
+               </div>
+               
+               </div>
+            </div>
             <h2>How to read &amp; write {{$tableof}} Times Table</h2>
             <div class="table-responsive">
                <table class="table table-bordered  write-method text-center table-hover">
@@ -176,6 +209,7 @@ Come and learn your multiplication table of {{$tableof }} . Learn Table of  {{$t
                </div>
                </div>
             </div>
+            
          </div>
          @include('frontend.pages.disclaimer')
       </div>
