@@ -14,7 +14,7 @@ Come and learn your multiplication table of {{$tableof }} . Learn Table of  {{$t
       <h1>Table of {{$tableof}}</h1>
       <div class="col-md-12">
          <div class="row">
-            <p><strong>Table of {{$tableof}}</strong> is referred to as multiples of four, which is quite similar to the table of two. The 4 times table also aids children in keeping track of even numbers. Students who memories multiplication tables find it more easier and faster to solve math problems in their heads. In real life, a 4 times table is frequently used while going to the market or determining the price of an item.</p>
+            <p><strong>The Table of {{$tableof}}</strong>. Here we have explain {{$tableof}} times table for easy way calculation in Maths. Multiplication Table of 12 for teaching kids the concept of multiplication.</p>
             <h2>{{$tableof}} Times Table up to 20</h2>
             <div class="table-responsive tablefortable">
                <table class="table table-hover table-bordered ">
@@ -50,6 +50,8 @@ Come and learn your multiplication table of {{$tableof }} . Learn Table of  {{$t
                   </tbody>
                </table>
             </div>
+            <h2>Multiplication Table of {{$tableof}} Concept</h2>
+            <p>{{$tableof}} Table: Multiplication tables help students/kids solve mathematical problems effortlessly. It is essential for students from classes 6 to 12 to learn and practice multiplication tables from 1-12. On this page, we have provided students with the multiplication table of {{$tableof}}  up to 50. Students who are in search of {{$tableof}}  Table can refer to this page.</p>
              <div class="row">
                <div class="col-sm-12  col-xs-12">
                <div >
