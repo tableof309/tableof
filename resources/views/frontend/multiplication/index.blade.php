@@ -1,6 +1,6 @@
 @extends('frontend.layouts.home')
 @section('meta_title')
-Table of {{$tableof }} | Learn Multiplication Table of {{$tableof }}  Maths | {{$tableof }} Times Table
+Table of {{$tableof }} | Learn Multiplication Table of {{$tableof }}  | {{$tableof }}  Times Table
 @endsection('meta_title')
 @section('meta_keyword')
 table of {{$tableof }}, {{$tableof }} times table, {{$tableof }} multiplication table, {{$tableof }} table, {{$tableof }}th table maths, {{$tableof }}th table @endsection('meta_keyword')
