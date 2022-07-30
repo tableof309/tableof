@@ -14,7 +14,7 @@ Come and learn your multiplication table of {{$tableof }} . Learn Table of  {{$t
       <h1>Table of {{$tableof}}</h1>
       <div class="col-md-12">
          <div class="row">
-            <p><strong>Table of {{$tableof}}</strong> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. .</p>
+            <p><strong>The Table of {{$tableof}}</strong>. Here we have explain {{$tableof}} times table for easy way calculation in Maths. Multiplication Table of 12 for teaching kids the concept of multiplication.</p>
             <h2>{{$tableof}} Times Table up to 20</h2>
             <div class="table-responsive tablefortable">
                <table class="table table-hover table-bordered ">
@@ -50,9 +50,9 @@ Come and learn your multiplication table of {{$tableof }} . Learn Table of  {{$t
                   </tbody>
                </table>
             </div>
+            <h2>Multiplication Table of {{$tableof}} Concept</h2>
+            <p>{{$tableof}} Table: Multiplication tables help students/kids solve mathematical problems effortlessly. It is essential for students from classes 6 to 12 to learn and practice multiplication tables from 1-12. On this page, we have provided students with the multiplication table of {{$tableof}}  up to 50. Students who are in search of {{$tableof}}  Table can refer to this page.</p>
             <h2>Multiplication Table of {{$tableof}} chart</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged {{$tableof}} chart.</p>
-            <p></p>
             <a href="{{asset('storage/table-of-'.$tableof.'.png')}}" download="table-of-{{$tableof}}.png">
                <img src="{{asset('storage/table-of-'.$tableof.'.png')}}" class="img-fluid img-thumbnail" alt="table of {{$tableof}} "/>
                <figcaption class="attachment__caption attachment__caption--edited">Free download Table of {{$tableof}} Chart</figcaption>

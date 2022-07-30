@@ -1,6 +1,6 @@
 <div class="row">
 	<div class="col-md-12 text-center">
-	    <h1> Online Multiplication <span style="color: #f5b803;">Table {{ (isset($tableof_str) && $tableof_str !=='') ? (' Of  '.$tableof_str) : 'Think A Number' }}</span> </h1>
+	    <h2> Online Multiplication <span style="color: #f5b803;">Table {{ (isset($tableof_str) && $tableof_str !=='') ? (' Of  '.$tableof_str) : 'Think A Number' }}</span> </h2>
 	    <p>with Exmaples, Download tables graph, play math quiz and compose tables, test (test) and numerous more...</p>
 
 	    <div class="search-bar">
@@ -11,8 +11,13 @@
 	        <div class="show-table">
 	            <table class="table-data table-bordered table-responsive">
 	                <thead>
+	                <tr style="visibility: collapse;">
+	                	<th> </th>
+	                	<th> </th>
+	                	<th> </th>
+	                </tr>
 	                <tr>
-	                    <th colspan="3"> <span> </span> Table </th>
+						<th colspan="3"> <span> </span> Table </th>
 	                </tr>
 	                </thead>
 	                <tbody>

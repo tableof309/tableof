@@ -1,5 +1,5 @@
 <div class="row">
-    <h1>Learn multiplication table 1 to 20</h1>
+    <h2>Learn multiplication table 1 to 20</h2>
 </div>
 
 <div class="row">

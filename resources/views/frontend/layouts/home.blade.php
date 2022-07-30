@@ -1,7 +1,6 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,7 +13,7 @@
     
     <title>@yield('meta_title')</title>
     <meta name="keywords" content="@yield('meta_keyword')"/>
-    <meta name="keywords" content="@yield('meta_description')"/>
+    <meta name="description" content="@yield('meta_description')"/>
 
     <meta name="Language" content="English"/>
     <meta name="Publisher" content="TableOf"/>
@@ -52,7 +51,7 @@
     <div class="container">
         <div class="col-md-12">
             <div class="row">
-                <div class="col-sm-6 col-md-4">
+                <div class="col-sm-6 col-md-9">
                     <div class="footer-logo">
                         <a href="{{url('/')}}">
                            <img style="width: 100px;" src="{{asset('images/tableof-logo.png')}}"  alt="Table of logo" >
@@ -60,10 +59,10 @@
                     </div>
 
                     <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                    @include('frontend.pages.disclaimer')
                     </p>
                 </div>
-                <div class="col-sm-6 col-md-4">
+                <div class="col-sm-6 col-md-3">
 
                     <h4>QUICK LINKS</h4>
                     <ul class="footer-links">
