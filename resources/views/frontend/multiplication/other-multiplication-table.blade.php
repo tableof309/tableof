@@ -1,8 +1,8 @@
 <h2> Follow Us</h2>
 <ul class="nav social-media">
-   <li><a href="#"> <img src="{{asset('images/facebook.jpg')}}"></a></li>
-   <li><a href="#"> <img src="{{asset('images/twitter.jpg')}}"></a></li>
-   <li><a href="#"> <img src="{{asset('images/insta.jpg')}}"></a></li>
+   <li><a href="#"> <img src="{{asset('images/facebook.jpg')}}" alt="tableof facebook"></a></li>
+   <li><a href="#"> <img src="{{asset('images/twitter.jpg')}}" alt="tableof twitter"></a></li>
+   <li><a href="#"> <img src="{{asset('images/insta.jpg')}}" alt="tableof instagram" ></a></li>
 </ul>
 <h2>Learn other Multiplication tables below</h2>
 <ul class="nav other-tables">
