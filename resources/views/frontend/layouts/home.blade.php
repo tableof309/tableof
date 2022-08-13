@@ -99,7 +99,7 @@
 
         <div class="row">
             <div class="col-md-12 copyright ">
-                All rights reserved @ 2021 <a href="{{url('/')}}">https://table-of.com</a>
+                All rights reserved @ 2021 - {{date('Y')}} <a href="{{url('/')}}">https://table-of.com</a>
             </div>
         </div>
     </div>
@@ -109,6 +109,9 @@
 <script src="{{asset('js/bootstrap.min.js')}}"   ></script>
 
     <script  >
+        $(function () {
+          $('[data-toggle="tooltip"]').tooltip()
+        })
         $(document).ready(function(){
 
             $('#getvalue').on('input', function() {
