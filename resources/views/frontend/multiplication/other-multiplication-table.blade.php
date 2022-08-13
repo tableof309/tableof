@@ -6,8 +6,9 @@
    <li><a href="#"  rel="noopener noreferrer" onclick="window.open('https://api.whatsapp.com/send?text='+encodeURIComponent(document.location.href), 'sharer','toolbar=0,status=0,width=700,height=500,resizable=yes,scrollbars=yes');return false;" data-bs-toggle="tooltip" data-bs-placement="top" title="Share On WhatsApp" > <img src="{{asset('images/insta.jpg')}}" alt="tableof instagram" ></a></li>
 
    <li><a href="#" rel="noopener noreferrer"  onclick="window.open('https://www.facebook.com/dialog/send?app_id=105693265587426&link='+encodeURIComponent(document.location.href)+'&redirect_uri='+encodeURIComponent(document.location.href), 'sharer','toolbar=0,status=0,width=850,height=500,resizable=yes,scrollbars=yes');return false;" data-bs-toggle="tooltip" data-bs-placement="top" title="Share On Massenger" > <img src="{{asset('images/insta.jpg')}}" alt="tableof instagram" ></a></li>
-   <li><a href="#" onclick="window.open('https://msng.link/o/?'+encodeURIComponent(document.location.href),'sharer','toolbar=0,status=0,width=850,height=500,resizable=yes,scrollbars=yes');return false;" data-bs-toggle="tooltip" data-bs-placement="top" title="Share On instagram" > <img src="{{asset('images/insta.jpg')}}" alt="tableof instagram" ></a></li>
+   <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Share On instagram" > <img src="{{asset('images/insta.jpg')}}" alt="tableof instagram" ></a></li>
 </ul>
+
 <h2>Learn other Multiplication tables below</h2>
 <ul class="nav other-tables">
    @for ($i =1; $i <=20; $i++)
