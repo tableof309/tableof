@@ -25,6 +25,9 @@
     <meta name="allow-search" content="yes"/>
     <meta name="expires" content="never"/>
     <meta name="ahrefs-site-verification" content="f5b784efe29acd7131eb26d4c3cc00d5f744ed0f9452c27dc188502eae697164">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8673849322443357"
+     crossorigin="anonymous"></script>
+     
      <!--Meta Data Structure-->
      <!--googe add veryfication-->
        <!-- <script defer async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8673849322443357"
